@@ -5,36 +5,37 @@
     <title>Google</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
   </head>
-  <body>
-    <ul>
-      <li><a href="https://google.com" class="top.rail.links trl">About</a></li>
-      <li><a href="https://google.com" class="top.rail.links trl">Store</a></li>
-      <li><a href="https://mail.google.com" class="top.rail.links trr">Gmail</a></li>
-      <li><a href="https://google.com" class="top.rail.links trr">Images</a></li>
-    </ul>
-    <div id="middle_band">
-    </div>
-    <img src="google_logo.png" alt="Google logo" height="92" width="272" />
-    <div id="logo_to_search">
-    </div>
-    <form>
-      <input type="text" name="search">
-    </form>
-    <div id="search_to_buttons">
-    </div>
+  <body> /*set up topbar, but two others remain for morning of 6/13*/
+    <div class="topbar">
       <ul>
-        <li class="submit"><a href="https://reddit.com" >Google Search</a></li>
-        <li class="submit"><a href="https://reddit.com" >I'm Feeling Lucky</a></li>
-    <div id="buttons_to_text">
+        <li><a href="https://google.com" class="toplist">About</a></li>
+        <li><a href="https://google.com" class="toplist">Store</a></li>
+        <li><a href="https://google.com" class="toplist">Gmail</a></li>
+        <li><a href="https://google.com" class="toplist">Images</a></li>
+        <li><a href="https://google.com" class="toplist" id="menugrid">...</a></li>
+        <li><button id="signin">
+          <a href="https://google.com" class="toplist" id="signinlink">Sign In</a>
+          </button>
+           // //</li>
+      </ul>
     </div>
-    <div id="text_to_footer">
+    <div class="logo">
+      <img src="google_logo.png" alt="Google logo" height="92" width="272" />
+      <form>
+        <input type="text" name="search">
+      </form>
+        <ul>
+          <li class="submit"><a href="https://reddit.com" >Google Search</a></li>
+          <li class="submit"><a href="https://reddit.com" >I'm Feeling Lucky</a></li>
     </div>
-    <ul>
-      <li><a href="https://google.com" class="bottom.rail.links brl">Advertising</a></li>
-      <li><a href="https://google.com" class="bottom.rail.links brl">Business</a></li>
-      <li><a href="https://google.com" class="bottom.rail.links brr">Privacy</a></li>
-      <li><a href="https://google.com" class="bottom.rail.links brr">Terms</a></li>
-      <li><a href="https://google.com" class="bottom.rail.links brr">Settings</a></li>
-    </ul>
+    <div class="searchbar"
+      <ul>
+        <li><a href="https://google.com" class="bottomlist">Advertising</a></li>
+        <li><a href="https://google.com" class="bottomlist">Business</a></li>
+        <li><a href="https://google.com" class="bottomlist">Privacy</a></li>
+        <li><a href="https://google.com" class="bottomlist">Terms</a></li>
+        <li><a href="https://google.com" class="bottomlist">Settings</a></li>
+      </ul>
+    </div>
   </body>
 </html>

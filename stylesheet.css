@@ -1,20 +1,9 @@
 <!DOCTYPE css>
-body{
-  font-family:arial;
-}
+/*lots of rework coming morning of 6/13, practicing with different divs, classes, ids, and functions*/
 form{
   height:34px;
   position: absolute;}
-}
-#middle_band{
-  height: 109px;
-}
-#logo_to_search #search_to_buttons #buttons_to_text{
-  height: 23px;
-}
-#text_to_footer{
-  height:200px;
-}
+}}
 ul {
   list-style-type: none;
   margin: 0;
@@ -22,8 +11,9 @@ ul {
   overflow: hidden;
 }
 li {
-  display: inline;
+  display: inline-block;
   border: none;
+  padding: 12px;
 }
 .submit{
   display: inline;
@@ -31,7 +21,7 @@ li {
   font-weight: bold;
 }
 li a {
-  display: inline;
+  display: inline-block;
   text-align: center;
   padding: 14px, 16px;
   text-decoration: none;
