@@ -5,6 +5,12 @@ a{
 #middle_band{
   height: 109px;
 }
+#logo_bar_band{
+  height: 23px;
+}
+#search_bar_to_footer{
+  height:109px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,6 +22,7 @@ li {
   border: none;
 }
 li a {
+  display: inline;
   text-align: center;
   padding: 14px, 16px;
   text-decoration: none;
