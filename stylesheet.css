@@ -1,4 +1,13 @@
 <!DOCTYPE css>
 a{
-  font-family: sans-serif;
+  font-family: arial,sans-serif;
+}
+#middle_band{
+  height: 109px;
+}
+li {
+  display: inline;
+}
+li a:hover {
+  text-decoration:underline;
 }
