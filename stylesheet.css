@@ -4,19 +4,46 @@
   display: block;
   padding-top: 109px;
 }
-.searchbar {
+.searchbar{
   box-sizing: border-box;
   height: 100%;
   text-align: center;
   display: block;
 }
-#searchbox:hover {
+#searchbox:hover{
   border-color: #A1A1A1;
-  box-shadow: 1px 2px 3px #A1A1A1`;
+  box-shadow: 1px 2px 3px #A1A1A1;
 }
-
 *{
   margin: 0;
   border: 0;
   padding: 0;
+}
+#searchbox:focus{
+  border-color: #A1A1A1;
+  box-shadow: 1px 2px 3px #A1A1A1;
+}
+#searchbox{
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-color: #CCC;
+  border-style: solid;
+  border-width: 0.5px;
+  width: 450px;
+  padding: 9px;
+}
+#signinlink{
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  opacity: 1;
+  border: 1px solid #4285F4;
+  font-weight: bold;
+  background: #4285F4;
+  color: white;
+  line-height: 28px;
+  padding: 8px 12px 8px 12px;
+  margin: 0px;
 }
