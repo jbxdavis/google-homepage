@@ -1,4 +1,3 @@
-<!DOCTYPE css>
 #google{
   margin: auto;
   display: block;
@@ -60,6 +59,16 @@
   margin: 10px;
   color: black;
   text-decoration: none;
+}
+.navbar:hover{
+    text-decoration:underline;
+    opacity:1;
+}
+.navbar{
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  opacity: .7;
 }
 .toplist{
   vertical-align: middle;
