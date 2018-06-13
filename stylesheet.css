@@ -119,6 +119,9 @@
 #BR{
   float:right;
 }
+#TL{
+  float:left;
+}
 .botbarval{
   color: #666;
   font-size: 13px;
