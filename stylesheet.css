@@ -47,3 +47,72 @@
   padding: 8px 12px 8px 12px;
   margin: 0px;
 }
+#menugrid:hover {
+  opacity:1;
+}
+#menugrid {
+  opacity: .7;
+  background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+  width: 30px;
+  height: 30px;
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+.toplist{
+  vertical-align: middle;
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.buttons:hover{
+  color: #0D0D0D;
+  border-radius: 1px;
+  border-color: #878787;
+  border-style: solid;
+  border-width: 1px;
+}
+.topbar {
+  position: relative;
+  text-align: right;
+}
+.buttons {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin: 5px;
+  padding: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #EDEDED;
+  text-align: center;
+  color: #878787;
+  background-color: #EDEDED;
+}
+.botbar{
+  margin-top: 50px;
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  text-align: left;
+}
+.botbarlist{
+  display: inline-block;
+  padding: 12px;
+}
+.botbarval:hover{
+  text-decoration: underline;
+}
+#BR{
+  float:right;
+}
+.botbarval{
+  color: #666;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
