@@ -88,6 +88,7 @@
 .topbar {
   position: relative;
   text-align: right;
+  vertical-align: middle;
 }
 .buttons {
   font-family: arial, sans-serif;
