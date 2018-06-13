@@ -1,34 +1,6 @@
 <!DOCTYPE css>
-/*lots of rework coming morning of 6/13, practicing with different divs, classes, ids, and functions*/
-form{
-  height:34px;
-  position: absolute;}
-}}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  display: inline-block;
-  border: none;
-  padding: 12px;
-}
-.submit{
-  display: inline;
-  background-color: #f8f8f8;
-  font-weight: bold;
-}
-li a {
-  display: inline-block;
-  text-align: center;
-  padding: 14px, 16px;
-  text-decoration: none;
-}
-li a:hover {
-  text-decoration:underline;
-}
-img {
-  text-align: center;
+#google{
+  margin: auto;
+  display: block;
+  padding-top: 109px;
 }
