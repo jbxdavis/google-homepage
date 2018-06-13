@@ -5,7 +5,7 @@
     <title>Google</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
   </head>
-  <body> /*set up topbar, but two others remain for morning of 6/13*/
+  <body>
     <div class="topbar">
       <ul>
         <li><a href="https://google.com" class="toplist">About</a></li>
@@ -21,21 +21,25 @@
     </div>
     <div class="logo">
       <img src="google_logo.png" alt="Google logo" height="92" width="272" />
+    </div>
+    <div class="searchbar">
       <form>
-        <input type="text" name="search">
+        <div class="bar">
+          <input id="searchbox" type="text" name="search">
+          </div>
+        <div class="submit_buttons">
+            <input class="buttons" value="Google Search" type="submit">
+            <input class="buttons" value="I'm Feeling Lucky" type="submit">
+          </div>
       </form>
-        <ul>
-          <li class="submit"><a href="https://reddit.com" >Google Search</a></li>
-          <li class="submit"><a href="https://reddit.com" >I'm Feeling Lucky</a></li>
-    </div>
-    <div class="searchbar"
-      <ul>
-        <li><a href="https://google.com" class="bottomlist">Advertising</a></li>
-        <li><a href="https://google.com" class="bottomlist">Business</a></li>
-        <li><a href="https://google.com" class="bottomlist">Privacy</a></li>
-        <li><a href="https://google.com" class="bottomlist">Terms</a></li>
-        <li><a href="https://google.com" class="bottomlist">Settings</a></li>
-      </ul>
-    </div>
+      <div class="botbar">
+        <ul class="botbarlist">
+          <li class="botbarlistvalue"><a href="https://google.com" class="botbarval">Advertising</a></li>
+          <li class="botbarlistvalue"><a href="https://google.com" class="botbarval">Business</a></li>
+          <li id="BR" class="botbarlistvalue"><a href="https://google.com" class="botbarval">Privacy</a></li>
+          <li id="BR" class="botbarlistvalue"><a href="https://google.com" class="botbarval">Terms</a></li>
+          <li id="BR" class="botbarlistvalue"><a href="https://google.com" class="botbarval">Settings</a></li>
+        </ul>
+      </div>
   </body>
 </html>
